@@ -94,6 +94,9 @@
         ],
         "post-update-cmd": [
             "@auto-scripts"
+        ],
+        "post-create-project-cmd": [
+            "@auto-scripts"
         ]
     },
     "conflict": {

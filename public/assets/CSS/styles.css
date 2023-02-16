@@ -1,3 +1,15 @@
+@font-face {
+  font-family: "Stay Classy SLDT";
+  src: url("fonts/StayClassySLDT.woff2") format("woff2"), url("fonts/StayClassySLDT.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 * {
   margin: 0;
+}
+
+h1 {
+  font-family: "Stay Classy SLDT";
+  color: aqua;
 }/*# sourceMappingURL=styles.css.map */
