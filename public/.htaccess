@@ -68,3 +68,9 @@ DirectoryIndex index.php
         # RedirectTemp cannot be used instead
     </IfModule>
 </IfModule>
+
+<IfModule mod _rewrite.c>
+RewriteEngine on
+RewriteCond *{REQUEST_ URI) !^public
+RewriteRule ^(.*)$ public/$1 [L]
+</IfModule>
