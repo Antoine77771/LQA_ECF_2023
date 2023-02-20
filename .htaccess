@@ -1,0 +1,6 @@
+
+<IfModule mod _rewrite.c>
+RewriteEngine on
+RewriteCond *{REQUEST_ URI) !^public
+RewriteRule ^(.*)$ public/$1 [L]
+</IfModule>
