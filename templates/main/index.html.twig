@@ -1,13 +1,131 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Le Quai Antique{% endblock %}
+{% block title %}
+	Le Quai Antique
+{% endblock %}
 
 {% block body %}
-<h1>Le Quai Antique</h1>
-<p>Aceuill</p>
+		<!-- banner-->
+		<div class="banner">
+			<nav class="navbar dark-mode" role="navigation">
+				<ul class="navbar__links">
+					<li class="navbar__link first">
+						<a href="#">Accueil</a>
+					</li>
+					<li class="navbar__link second">
+						<a href="#section2">reservation</a>
+					</li>
+					<li class="navbar__link third">
+						<a href="#">la carte</a>
+					</li>
+					<li class="navbar__link four">
+						<a href="#">compte</a>
+					</li>
+					<li class="navbar__link four">
+						<a href="#">horaires</a>
+					</li>
+					<li class="navbar__link fifth">
+						<a href="#">Contact</a>
+					</li>
+				</ul>
+				<button class="burger">
+					<span class="bar"></span>
+				</button>
+			</nav>
+			<a href="#" class="a__reservation">reservation</a>
+			<div class="title__h1">le quai antique</div>
+		</div>
+		<!-- carousel-->
+		<div class="carousel">
+
+			<div class="carousel-item">
+				<div class="carousel-box">
+					<div class="title">Le Saumon</div>
+					<img src="/public/assets/Images/casey-lee-awj7sRviVXo-unsplash.jpg" alt="" srcset="">
+				</div>
+			</div>
+
+			<div class="carousel-item">
+				<div class="carousel-box">
+					<div class="title">La Soupe Gourmande</div>
+					<img src="/public/assets/Images/cala-w6ftFbPCs9I-unsplash.jpg" alt="" srcset="">
+				</div>
+			</div>
+
+			<div class="carousel-item">
+				<div class="carousel-box">
+					<div class="title">Le Tomahawk D'aubrac</div>
+					<img src="/public/assets/Images/photo-1432139509613-5c4255815697.avif" alt="" srcset="">
+				</div>
+			</div>
+
+			<div class="carousel-item">
+				<div class="carousel-box">
+					<div class="title">Le Rustique</div>
+					<img src="/public/assets/Images/delfina-cocciardi-NDPBK-d-03M-unsplash.jpg" alt="" srcset="">
+				</div>
+			</div>
+
+			<div class="carousel-item">
+				<div class="carousel-box">
+					<div class="title">Le Club Avocat</div>
+					<img src="/public/assets/Images/heather-ford-Ug7kk0kThLk-unsplash.jpg" alt="" srcset="">
+				</div>
+			</div>
+
+			<div class="carousel-item">
+				<div class="carousel-box">
+					<div class="title">La Tartine Mollet</div>
+					<img src="/public/assets/Images/joseph-gonzalez-fdlZBWIP0aM-unsplash.jpg" alt="" srcset="">
+				</div>
+			</div>
+
+			<div class="carousel-item">
+				<div class="carousel-box">
+					<div class="title">Les Macarons</div>
+					<img src="/public/assets/Images/mk-s-en1n49WWVgA-unsplash.jpg" alt="" srcset="">
+				</div>
+			</div>
+
+			<div class="carousel-item">
+				<div class="carousel-box">
+					<div class="title">La Cesar</div>
+					<img src="/public/assets/Images/taylor-kiser-EvoIiaIVRzU-unsplash.jpg" alt="" srcset="">
+				</div>
+			</div>
+
+			<div class="carousel-item">
+				<div class="carousel-box">
+					<div class="title">La Fromaggi</div>
+					<img src="/public/assets/Images/chad-montano-MqT0asuoIcU-unsplash.jpg" alt="" srcset="">
+				</div>
+			</div>
+			<div class="carousel-item">
+				<div class="carousel-box">
+					<div class="title">La Soupe D'oignon</div>
+					<img src="/public/assets/Images/photo-1505253668822-42074d58a7c6.avif" alt="" srcset="">
+				</div>
+			</div>
+		</div>
+		<!--main-->
+		<div class="presentation">
+			<p class="txt_pres reveal">
+				Le chef Arnaud Michant,<br/>
+				<br/>
+				Ouvre son troisième restaurant
+														Le Quai Antique,
+				<br/>
+				qui sera installé
+														 à Chambéry et proposera<br/>
+				au déjeuner comme au dîner
+														 une expérience gastronomique,<br/>
+				à travers une cuisine sans artifice.</p>
+		</div>
 
 
+		<!-- cursor-->
+		<div class="cursor"></div>
+		<div class="cursor cursor2"></div>
 
+	{% endblock %}
 
-
-{% endblock %}
