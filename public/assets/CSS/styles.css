@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
 @font-face {
   font-family: "Cheque";
-  src: url("/public/assets/fonts/Cheque-Regular.woff2") format("woff2"), url("/public/assets/fonts/Cheque-Regular.woff") format("woff");
+  src: url("/assets/fonts/Cheque-Regular.woff2") format("woff2"), url("/assets/fonts/Cheque-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -31,7 +31,7 @@
 
 .banner {
   height: 100vh;
-  background-image: url(/public/assets/Images/lycs-architecture-baxEyU9FL7g-unsplash.jpg);
+  background-image: url(/assets/Images/lycs-architecture-baxEyU9FL7g-unsplash.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -316,7 +316,7 @@
 /* main */
 .presentation {
   height: 70vh;
-  background-image: url(/public/assets/Images/jonathan-borba-uB7q7aipU2o-unsplash.jpg);
+  background-image: url(/assets/Images/jonathan-borba-uB7q7aipU2o-unsplash.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
