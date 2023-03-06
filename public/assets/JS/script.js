@@ -13,8 +13,8 @@ window.onload = function toggleMenu () {
     }); 
   })
    
+  toggleMenu();
 }
-toggleMenu();
 
 /* carousel */
 
