@@ -1,4 +1,4 @@
-window.onload = function toggleMenu () {  
+ /* window.onload = function toggleMenu () {  
   const navbar = document.querySelector('.navbar');
   const burger = document.querySelector('.burger');
   
@@ -13,8 +13,8 @@ window.onload = function toggleMenu () {
     }); 
   })
    
-  toggleMenu();
 }
+toggleMenu();
 
 /* carousel */
 
@@ -114,7 +114,7 @@ reveal txt
 
 
 
-const ratio =.1
+/* const ratio =.1
 const options = {
  root: null,
  rootMargin: 'Opx', 
@@ -132,5 +132,7 @@ const handleIntersect = function (entries, observer) {
 const observer = new IntersectionObserver (handleIntersect, options)
 document.querySelectorAl1('.reveal').forEach(function (rev) {
   observer.observe(rev);
-})
+}) 
+ */
+
 
