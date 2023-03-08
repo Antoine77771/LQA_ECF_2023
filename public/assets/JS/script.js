@@ -1,4 +1,4 @@
-top = toggleMenu();
+
  
  window.onload = function toggleMenu () {  
   const navbar = document.querySelector('.navbar');
@@ -14,7 +14,7 @@ top = toggleMenu();
       navbar.classList.toggle('show-nav');
     }); 
   })
-   
+  toggleMenu();
 }
 
 
