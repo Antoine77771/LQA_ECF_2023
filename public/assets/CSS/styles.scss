@@ -314,39 +314,90 @@
   transition-duration: .7s;
 }
 
+
 /* main */
+
+.main {
+  background-color:#ebf5fe ;
+}
 
 .presentation {
   height: 70vh;
-  background-image: url(/assets/Images/jonathan-borba-uB7q7aipU2o-unsplash.jpg);
+  width: 720px;
+  background-image: url(/images/jonathan-borba-uB7q7aipU2o-unsplash.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
-
 .menu__ {
   height: 70vh;
-  background-image: url(/assets/Images/joseph-gonzalez-fdlZBWIP0aM-unsplash.jpg);
+  width: 720px;
+  background-image: url(/images/joseph-gonzalez-fdlZBWIP0aM-unsplash.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
-
+.texte {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+  
+}
 .txt_p {
-  color: #FFF;
+  color: #000000;
   font-weight: 600;
-  font-size: 37px;
+  font-size: 30px;
   text-shadow: 0 4px 4px rgba(0, 0, 0, 0.369);
   padding: 50px;
+  
 }
 
+.contenaire1 {
+  display: flex;
+}
+.contenaire2 {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.btn_menu {
+  padding: 5px 10px 5px 10px;
+  border:solid 3px #000000;
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* annim reveal css */
 .reveal {
-  opacity: 0;
- transform: translateY(-30px);
+  animation: reveal 0.8s ease-out;
 }
-
-.reveal_active {
-  opacity: 1;
-  transform: translateY(0);
-  transition: 1s ease-in;
+@keyframes reveal {
+  from {
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }

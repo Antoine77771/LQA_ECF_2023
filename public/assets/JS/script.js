@@ -1,4 +1,6 @@
- /* window.onload = function toggleMenu () {  
+toggleMenu();
+ 
+ window.onload = function toggleMenu () {  
   const navbar = document.querySelector('.navbar');
   const burger = document.querySelector('.burger');
   
@@ -14,7 +16,7 @@
   })
    
 }
-toggleMenu();
+
 
 /* carousel */
 
@@ -108,31 +110,9 @@ document.addEventListener('touchstart', handleMouseDown)
 document.addEventListener('touchmove', handleMouseMove)
 document.addEventListener('touchend', handleMouseUp)
 
-/* -------
-reveal txt
------------ */
 
 
 
-/* const ratio =.1
-const options = {
- root: null,
- rootMargin: 'Opx', 
- threshold: ratio
-}
 
-const handleIntersect = function (entries, observer) {
-  entries.forEach(function (entry) {
-    if (entry .intersectionRatio > ratio) {
-      entry.target.classList.add('reveal_active')
-      observer.unobserve(entry.target)
-    }
-  })
-}
-const observer = new IntersectionObserver (handleIntersect, options)
-document.querySelectorAl1('.reveal').forEach(function (rev) {
-  observer.observe(rev);
-}) 
- */
 
 
