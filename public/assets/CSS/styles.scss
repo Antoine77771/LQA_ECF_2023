@@ -337,6 +337,23 @@
   background-size: cover;
   background-position: center;
 }
+.horaires {
+  height: 70vh;
+  width: 720px;
+  background-image: url(/assets/Images/Capture\ d’écran\ 2023-03-08\ à\ 17.16.21.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.carte__ {
+  height: 70vh;
+  width: 720px;
+  background-image: url(/assets/Images/brooke-lark-R18ecx07b3c-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 .texte {
   display: flex;
   justify-content: center;
@@ -362,7 +379,7 @@
   flex-direction: row-reverse;
 }
 
-.btn_menu {
+.btn_main {
   padding: 5px 10px 5px 10px;
   border:solid 3px #000000;
   text-transform: uppercase;
@@ -371,6 +388,52 @@
   cursor: pointer;
 }
 
+/* footer */
+
+.footer {
+  background-color: #d0d0d0;
+  display: flex;
+  justify-content: space-evenly;
+}
+.foot1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.h4_foot {
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 7px;
+}
+
+.p_foot {
+  padding-bottom: 5px;
+}
+
+.sosc__a {
+  display: flex;
+  justify-content: space-between;
+}
+.a_tiktok {
+cursor: pointer;
+width: 20px;
+height: 20px;
+}
+
+.copyright {
+  background: #000;
+  display: flex;
+  justify-content: center;
+}
+
+.h5_foot { 
+  display: flex;
+  align-items: center;
+  color: #FFF;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 7px;
+}
 
 
 
