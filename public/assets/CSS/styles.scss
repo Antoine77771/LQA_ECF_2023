@@ -435,7 +435,46 @@ height: 20px;
   padding: 7px;
 }
 
+/* --------
+media queries
+----------*/
 
+@media only screen and (max-width: 768px) {
+  .title__h1 {
+    font-size: 50px;
+  }
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+  .contenaire1 {
+    flex-direction: column;
+    align-items: center;
+  }
+  .contenaire2 {
+    flex-direction: column;
+    align-items: center;
+  }
+  .a__reservation {
+    margin-left: 563px;
+  }
+  .presentation {
+    width: 768px;
+  }
+  .menu__ {
+    width: 768px;
+  }
+  .horaires {
+    width: 768px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .carte__ {
+    width: 768px;
+  }
+  
+}
 
 
 
