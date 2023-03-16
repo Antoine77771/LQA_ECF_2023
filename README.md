@@ -18,6 +18,7 @@ Installation du projet en local :
 - demarer MAMP
 - ouvrire le terminal
 - tapez la commande symfony serve
+-
 
 
 
