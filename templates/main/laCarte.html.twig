@@ -1,0 +1,260 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}
+	Le Quai Antique
+{% endblock %}
+
+{% block body %}
+  <!-- navbar-->
+  <div class="banner">
+    <nav class="navbar dark-mode" role="navigation">
+      <ul class="navbar__links">
+        <li class="navbar__link first"><a href="{{ path('app_main')}}">Accueil</a></li>
+        <li class="navbar__link second">
+          <a href="#section2">reservation</a>
+        </li>
+        <li class="navbar__link third"><a href="{{ path('app_carte')}}">la carte</a></li>
+        <li class="navbar__link four"><a href="#">compte</a></li>
+        <li class="navbar__link four"><a href="#">horaires</a></li>
+        <li class="navbar__link fifth"><a href="#">Contact</a></li>
+      </ul>
+      <button class="burger reveal">
+        <span class="bar"></span>
+      </button>
+      <h1 class="h1__nav">Le Quai Antique</h1>
+    </nav>
+    <h1 class="title__h1">la carte</h1>
+  </div>
+
+    <!-- main -->
+
+    <main>
+      <!-- les entrées-->
+      <div class="crates">
+        <div class="title_">
+          <p class="p_title">les entrées</p>
+        </div>
+        <div class="cards">
+          <div class="card">
+            <p class="title_card">
+              tartinette d'oeuf 
+              <p class="price_card">-9€</p>
+            </p>
+            <p class="descrip_card">
+              Lorem ipsum dolor sit amet consectetur,
+              adipisicing elit. Perspiciatis itaque 
+            </p>
+          </div>
+          <div class="card1">
+            <p class="title_card">
+              le club avocat
+              <p class="price_card">-10€</p>
+            </p>
+            <p class="descrip_card">
+              Lorem ipsum dolor sit amet consectetur,
+              adipisicing elit. Perspiciatis itaque 
+            </p>
+          </div>
+          <div class="card2">
+            <p class="title_card">
+              Soupe de poisson 
+              <p class="price_card">-11€</p>
+            </p>
+            <p class="descrip_card">
+              Lorem ipsum dolor sit amet consectetur,
+              adipisicing elit. Perspiciatis itaque 
+            </p>
+          </div>
+          <div class="card3">
+            <p class="title_card">
+              planche de fromage
+              <p class="price_card">-15€</p>
+            </p>
+            <p class="descrip_card">
+              Lorem ipsum dolor sit amet consectetur,
+              adipisicing elit. Perspiciatis itaque 
+            </p>
+          </div>
+          <div class="card4">
+            <p class="title_card">
+              begnet de crevette
+              <p class="price_card">-8€</p>
+            </p>
+            <p class="descrip_card">
+              Lorem ipsum dolor sit amet consectetur,
+              adipisicing elit. Perspiciatis itaque 
+            </p>
+          </div>
+        </div>
+      </div>
+      <!--les plats-->
+
+      <div class="catres">
+        <div class="title_">
+          <p class="p_title">les plats</p>
+        </div>
+        <div class="cards">
+          <div class="card5">
+            <p class="title_card">
+              l'americain
+              <p class="price_card">-14€</p>
+            </p>
+            <p class="descrip_card">
+              Lorem ipsum dolor sit amet consectetur,
+              adipisicing elit. Perspiciatis itaque 
+            </p>
+          </div>
+          <div class="card6">
+            <p class="title_card">
+              les moulles
+              <p class="price_card">-17€</p>
+            </p>
+            <p class="descrip_card">
+              Lorem ipsum dolor sit amet consectetur,
+              adipisicing elit. Perspiciatis itaque 
+            </p>
+          </div>
+          <div class="card7">
+            <p class="title_card">
+              les pates mozza
+              <p class="price_card">-11€</p>
+            </p>
+            <p class="descrip_card">
+              Lorem ipsum dolor sit amet consectetur,
+              adipisicing elit. Perspiciatis itaque 
+            </p>
+          </div>
+          <div class="card8">
+            <p class="title_card">
+              panne lyonnais
+              <p class="price_card">-12€</p>
+            </p>
+            <p class="descrip_card">
+              Lorem ipsum dolor sit amet consectetur,
+              adipisicing elit. Perspiciatis itaque 
+            </p>
+          </div>
+          <div class="card9">
+            <p class="title_card">
+             Tomahawk D'aubrac
+              <p class="price_card">-29€</p>
+            </p>
+            <p class="descrip_card">
+              Lorem ipsum dolor sit amet consectetur,
+              adipisicing elit. Perspiciatis itaque 
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- les desserts-->
+
+      <div class="catres">
+        <div class="title_">
+          <p class="p_title">les desserts</p>
+        </div>
+        <div class="cards">
+          <div class="card10">
+            <p class="title_card">
+              tarte citron
+              <p class="price_card">-7€</p>
+            </p>
+            <p class="descrip_card">
+              Lorem ipsum dolor sit amet consectetur,
+              adipisicing elit. Perspiciatis itaque 
+            </p>
+          </div>
+          <div class="card11">
+            <p class="title_card">
+              oreo glace
+              <p class="price_card">-9€</p>
+            </p>
+            <p class="descrip_card">
+              Lorem ipsum dolor sit amet consectetur,
+              adipisicing elit. Perspiciatis itaque 
+            </p>
+          </div>
+          <div class="card12">
+            <p class="title_card">
+              creme brulé
+              <p class="price_card">-8€</p>
+            </p>
+            <p class="descrip_card">
+              Lorem ipsum dolor sit amet consectetur,
+              adipisicing elit. Perspiciatis itaque 
+            </p>
+          </div>
+          <div class="card13">
+            <p class="title_card">
+              crambery muffin
+              <p class="price_card">-7€</p>
+            </p>
+            <p class="descrip_card">
+              Lorem ipsum dolor sit amet consectetur,
+              adipisicing elit. Perspiciatis itaque 
+            </p>
+          </div>
+          <div class="card14">
+            <p class="title_card">
+              tarte au pomme
+              <p class="price_card">-8€</p>
+            </p>
+            <p class="descrip_card">
+              Lorem ipsum dolor sit amet consectetur,
+              adipisicing elit. Perspiciatis itaque 
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!--footer-->
+
+     <div class="footer">
+      <div class="foot1">
+        <h4 class="h4_foot">horaires</h4>
+        <p class="p_foot">
+          Du lundi au vendredi<br/>
+          12:00-14:30
+          19:00-21:00 <br/>
+          Samedi et dimanche<br/>
+          12:00-14:30
+          19:00-22:30<br/>
+          Fermé le jeudi
+        </p>
+      </div>
+      <div class="foot1">
+        <div class="soc_foot">
+          <h4 class="h4_foot">soscials</h4>
+          <div class="sosc__a">
+            <a href="" class="a_tiktok"><img src="/assets/Images/tiktok.jpg" alt="" srcset="" width="25px"></a>
+            <a href="" class="a_twitter"><img src="/assets/Images/twitter (1).png" alt="" srcset="" width="25px"></a>
+            <a href="" class="a_ig"><img src="/assets/Images/instagram.png" alt="" srcset="" width="25px"></a>
+          </div>
+        </div>
+        <div class="res_foot">
+          <h4 class="h4_foot">réservation</h4>
+          <p class="p_foot">
+            Les réservations se<br/>
+             font sur site ou par téléphone.
+          </p>
+        </div>
+      </div>
+      <div class="foot3">
+        <h4 class="h4_foot">contact</h4>
+        <div class="foot3__p">
+        <p class="p_foot"><img src="/assets/Images/phone-call.png" alt="" srcset="" width="20px"> 06.11.22.33.65</p>
+        <p class="p_foot"><img src="/assets/Images/arobase.png" alt="" srcset="" width="20px"> lequaiantique@support.com</p>
+        <p class="p_foot"><img src="/assets/Images/gps.png" alt="" srcset="" width="20px"> 3 Rue des éléphant Chambéry 73330</p>
+      </div>
+      </div>
+    </div>
+      <div class="copyright">
+        <h4 class="h5_foot">antoine guerre-genton 2023  <img src="/assets/Images/copyright.png" alt="" srcset="" width="25px"></h4>
+      </div>
+
+    <!-- cursor-->
+    <div class="cursor"></div>
+    <div class="cursor cursor2"></div>
+   
+{% endblock %}
