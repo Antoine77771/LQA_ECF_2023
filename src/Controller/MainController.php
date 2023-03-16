@@ -13,4 +13,10 @@ class MainController extends AbstractController
     {
         return $this->render('main/index.html.twig');
     }
+    #[Route('/carte', name: 'app_carte')]
+    public function carte(): Response
+    {
+        return $this->render('main/laCarte.html.twig');
+    }
+   
 }
